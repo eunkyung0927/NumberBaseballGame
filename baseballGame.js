@@ -47,7 +47,7 @@ while (count < 10) {
     } else if (count >= 10) {
       console.error('시도횟수를 초과하였습니다.');
     } else {
-      console.info(inputArray.join('') + ": " + strike + '스트라이크' + ball + '볼');
+      console.info(count+"번째 시도 >"+inputArray.join('') + ": " + strike + '스트라이크' + ball + '볼');
     }
   }
 }
